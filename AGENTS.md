@@ -359,8 +359,7 @@ owner:
 ## 九、维护规则
 
 - 新增 agent 时，必须补充：输入 artifact、输出 artifact、是否可写代码、是否参与门禁、阻塞时交还给谁
-- 修改 artifact 标签时，必须同步更新 `[AGENTS.md](/Users/kongwen/claude_wk/ai-sfw-c/AGENTS.md)` 与 `.codex/agents/*.toml`
+- 修改 artifact 标签时，必须同步更新 `AGENTS.md` 与 `.codex/agents/*.toml`
 - 禁止在不同 agent prompt 中定义冲突标签、冲突门禁或冲突权限语义
 - 如果 agent prompt 与本文件冲突，以本文件为准
-
 
